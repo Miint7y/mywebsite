@@ -1,4 +1,5 @@
 /* General styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,6 +8,9 @@ body {
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Ensure body takes full viewport height */
+    width: 100%; /* Ensure body takes full viewport width */
+    overflow: hidden; /* Prevent scrollbars if the background image causes overflow */
 }
 
 /* Header styling */
