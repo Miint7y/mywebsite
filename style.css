@@ -1,48 +1,63 @@
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Header styling */
 header {
-    background: #fff;
-    color: #333;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    background-color: #333; /* Dark background for header */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Padding inside header */
+    display: flex; /* Align items horizontally */
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center items vertically */
 }
 
+/* Header title */
 header h1 {
-    margin: 0;
+    margin: 0; /* Remove default margin */
+}
+
+/* Navigation styling */
+nav {
+    margin-left: 0; /* Remove margin */
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none; /* Remove bullet points */
     margin: 0;
     padding: 0;
+    display: flex; /* Align items horizontally */
 }
 
 nav ul li {
-    display: inline;
-    margin-left: 10px;
+    margin-left: 15px; /* Space between items */
 }
 
 nav ul li a {
-    color: #333;
-    text-decoration: none;
+    color: #fff; /* White links */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
 }
 
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main content styling */
 main {
-    padding: 20px;
+    padding: 20px; /* Space around content */
 }
 
+/* Footer styling */
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center; /* Center text */
+    padding: 10px; /* Padding inside footer */
+    position: fixed; /* Fixed at the bottom */
+    width: 100%; /* Full-width */
+    bottom: 0; /* Bottom of page */
 }
