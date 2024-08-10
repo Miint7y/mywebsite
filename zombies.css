@@ -45,6 +45,11 @@ main {
     padding: 20px; /* Space around content */
 }
 
+/* Make the main content text white */
+main p {
+    color: #fff; /* White text color */
+}
+
 /* Footer styling */
 footer {
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
