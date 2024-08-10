@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/Users/collin/Desktop/My Website/Images/background2'); /* Path to your PNG image */
+    background-image: url('Images/background2.png'); /* Correct path to your PNG image */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
