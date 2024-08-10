@@ -68,11 +68,13 @@ main {
     display: flex;
     justify-content: center; /* Center horizontally */
     width: 100%; /* Full width of main content */
+    padding: 20px; /* Padding around the audio player */
 }
 
 /* Audio player styling */
 audio {
     width: 300px; /* Adjust width as needed */
+    /* Remove controls if you don't want them displayed */
 }
 
 /* Footer styling */
