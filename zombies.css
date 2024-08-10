@@ -26,23 +26,19 @@ header h1 {
     margin: 0; /* Remove default margin */
 }
 
-/* Navigation styling */
-nav ul li {
-    margin-left: 15px; /* Space between items */
-}
-
-nav ul li a {
-    color: #fff; /* White links */
-    text-decoration: none; /* No underline */
-    font-weight: bold; /* Bold text */
-}
-
-nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-
+/* Main content styling */
 main {
     padding: 20px; /* Space around content */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: calc(100vh - 80px); /* Adjust height to exclude header and footer */
+}
+
+/* Center the YouTube video */
+iframe {
+    margin: 20px 0; /* Add vertical margin around the video */
 }
 
 /* Make the main content text white */
