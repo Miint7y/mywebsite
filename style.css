@@ -14,7 +14,7 @@ body {
 
 /* Header styling */
 header {
-    background-color: #333; /* Dark background for header */
+    background-color: #000; /* Dark background for header */
     color: #fff; /* White text */
     padding: 10px 20px; /* Adjust padding to reduce space */
     display: flex; /* Align items horizontally */
@@ -78,7 +78,7 @@ audio {
 
 /* Footer styling */
 footer {
-    background-color: #333; /* Dark background */
+    background-color: #000; /* Dark background */
     color: #fff; /* White text */
     text-align: center; /* Center text */
     padding: 10px; /* Adjust padding to reduce space */
