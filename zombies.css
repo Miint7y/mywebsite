@@ -14,7 +14,7 @@ body {
 
 /* Additional styling specific to the Zombies page */
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background for header */
+    background-color: #000; /* Semi-transparent dark background for header */
     color: #fff; /* White text */
     padding: 10px 20px; /* Padding inside header */
     display: flex; /* Align items horizontally */
@@ -48,7 +48,7 @@ main p {
 
 /* Footer styling */
 footer {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    background-color: #000; /* Semi-transparent dark background */
     color: #fff; /* White text */
     text-align: center; /* Center text */
     padding: 10px; /* Padding inside footer */
