@@ -85,4 +85,119 @@ footer {
     position: fixed; /* Fixed at the bottom */
     width: 100%; /* Full-width */
     bottom: 0; /* Bottom of page */
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/background2.png'); /* Correct path to your PNG image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Ensure body takes full viewport height */
+    width: 100%; /* Ensure body takes full viewport width */
+    overflow: hidden; /* Prevent scrollbars if the background image causes overflow */
+}
+
+/* Header styling */
+header {
+    background-color: #000; /* Dark background for header */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Adjust padding to reduce space */
+    display: flex; /* Align items horizontally */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    position: relative; /* Ensure positioning context */
+}
+
+/* Header title */
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Navigation styling */
+nav {
+    margin-left: 0; /* Remove margin */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+}
+
+nav ul li {
+    margin-left: 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: #fff; /* White links */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 20px; /* Adjust padding to move content up */
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: calc(100vh - 80px); /* Adjust height to exclude header and footer */
+}
+
+/* Audio player container */
+.audio-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 100%; /* Full width of main content */
+}
+
+/* Audio player styling */
+audio {
+    width: 300px; /* Adjust width as needed */
+}
+
+/* Footer styling */
+footer {
+    background-color: #000; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center; /* Center text */
+    padding: 10px; /* Adjust padding to reduce space */
+    position: fixed; /* Fixed at the bottom */
+    width: 100%; /* Full-width */
+    bottom: 0; /* Bottom of page */
+}
+    
+/* Container for the rotating planet */
+.planet-container {
+    position: relative;
+    width: 300px; /* Adjust to fit your image size */
+    height: 300px; /* Adjust to fit your image size */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style and animate the planet */
+.planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg); /* Center the image */
+    animation: rotate 10s linear infinite; /* Apply rotation animation */
+    transform-origin: center; /* Rotate around the center */
+}
+
+/* Define the rotation animation */
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
 }
